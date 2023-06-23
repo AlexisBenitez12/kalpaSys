@@ -88,7 +88,7 @@
 }
 
 .contenedor-mail h2{
-	font-size: 1.7em;
+	font-size: 1.5em;
 	height: 15%;
 }
 
@@ -169,6 +169,10 @@
 @media screen and (max-width: 350px){
 
 	*{
+		font-size: .9em;
+	}
+
+	.contenedor-mail h2{
 		font-size: .9em;
 	}
 }
