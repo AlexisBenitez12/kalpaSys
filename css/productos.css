@@ -1,0 +1,468 @@
+.subcategoria{
+	height: 8vh;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 20px;
+	font-size: .8em;
+	text-transform: uppercase;
+}
+
+.seccion-uno{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.contenedor-select{
+	width: 100%;
+}
+
+.ordenar{
+	padding: 10px;
+	position: relative;
+}
+
+.ordenar button{
+	background-color: #999;
+	border: none;
+	padding: 5px;
+	text-transform: uppercase;
+	color: white;
+	fill: white;
+	border-radius: 5px;
+	font-size: .7em;
+}
+
+.ordenar button svg{
+	margin-left: 5px;
+}
+
+.lista-ordenar{
+	display: none;
+}
+
+.lista-ordenar.active{
+	display: block;
+	list-style: none;
+	position: absolute;
+	top: 85%;
+	background-color: white;
+	padding: 5px;
+	border-radius: 5px;
+	border: solid 1px grey;
+}
+
+.item-ordenar{
+	padding: 5px;
+}
+
+.item-ordenar a{
+	text-decoration: none;
+	color: black;
+}
+
+.container-sub{
+	display: none;
+}
+
+.contenedor-product{
+	width: 100%;
+}
+
+.container-card{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-flow: row wrap;
+	margin-top: 10px;
+}
+
+.principal{
+	display: none;
+}
+
+@media screen and (min-width: 900px){
+
+	.seccion-uno{
+		display: flex;
+		justify-content: space-around;
+		align-items: flex-start;
+		flex-direction: row;
+	}
+
+	.contenedor-select{
+		width: 20%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.container-order{
+		width: 100%;
+	}
+
+	.ordenar{
+		width: 100%;
+	}
+
+	.ordenar button{
+		width: 100%;
+	}
+
+
+	.item-ordenar a{
+		font-size: 1em;
+	}
+
+	.container-sub{
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
+		flex-flow: column;
+		width: 100%;
+		background-color: #fff;
+		padding: 20px;
+		border-radius: 8px;
+		font-size: .8em;
+		margin: 10px 0;
+	}
+
+	.container-sub h2{
+		font-size: 1em;
+	}
+
+	.menu-subcategorias{
+		padding: 10px;
+	}
+
+	.lista-subcategorias{
+		list-style: none;
+	}
+
+	.item-subcategoria{
+		padding: 5px;
+	}
+
+	.item-subcategoria a{
+		text-decoration: none;
+		font-size: 1em;
+		color: grey;
+	}
+
+	.contenedor-product{
+		width: 70%;
+		border-radius: 10px;
+	}
+	.container-card{
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		flex-flow: row wrap;
+	}
+
+	.card-producto{
+		width: 24%;
+		font-size: .9em;
+		height: 60vh;
+		margin: .5% .5%;
+	}
+
+	.principal{
+		display: flex;
+		width: 100%;
+		background-color: transparent;
+	}
+
+	.product{
+		width: 15%;
+		border-radius: 5px;
+		overflow: hidden;
+	}
+}
+
+
+
+
+/*Productos*/
+
+
+
+/*
+
+.contenedor-uno{
+	width: 100%;
+}
+
+.contenedor-marcas{
+	padding: 1em;
+	width: 100%;
+	background-color: #F5F5F5;
+}
+
+.marcas-productos{
+	height: 10vh;
+	width: 30%;
+	border: solid 1px #999;
+}
+
+.marcas-productos img{
+	height: 100%;
+	width: 100%;
+}
+
+.ordenar{
+	padding: 10px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	position: relative;
+}
+
+.ordenar button{
+	background-color: #999;
+	border: none;
+	padding: 5px;
+	text-transform: uppercase;
+	color: white;
+	fill: white;
+	border-radius: 5px;
+	font-size: .7em;
+}
+
+.ordenar button svg{
+	margin-left: 5px;
+}
+
+.lista-ordenar{
+	display: none;
+}
+
+.lista-ordenar.active{
+	display: block;
+	list-style: none;
+	position: absolute;
+	top: 85%;
+	background-color: white;
+	padding: 5px;
+	border-radius: 5px;
+	border: solid 1px grey;
+}
+
+.item-ordenar{
+	padding: 5px;
+}
+
+.item-ordenar a{
+	text-decoration: none;
+	color: black;
+}
+
+.cont-card-producto{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-flow: row wrap;
+}
+
+.sub-categoria{
+	display: none;
+}
+
+@media screen and (max-width: 350px){
+
+	.card-producto{
+		width: 80%;
+	}
+		.contenedor-dos{
+		width: 100%;
+	}
+	.seccion-uno{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+
+}
+
+@media screen and (min-width: 700px){
+
+	
+	.card-producto{
+		width: 45%;
+		font-size: .9em;
+		height: 60vh;
+	}
+
+	.cont-card-producto{
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+	}
+
+	
+	.contenedor-dos{
+		width: 100%;
+	}
+
+}
+
+@media screen and (min-width: 900px){
+
+	.seccion-uno{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: row;
+	}
+
+	.contenedor-dos{
+		display: flex;
+		width: 20%;
+		justify-content: center;
+		align-items: center;
+		flex-flow: column;
+	}
+
+	.subcategoria{
+		margin-left: 5%;
+	}
+
+	.sub-categoria{
+		
+	}
+
+	
+
+	--.banner-vertical{
+		width: 100%;
+		height: 160vh;
+		border-radius: 7px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		overflow: hidden;
+		margin: 1.5em 0;
+	}
+
+	.banner-vertical a{
+		display: block;
+		width: 100%;
+		height: 25%;
+	}
+
+	.banner-vertical a img{
+		width: 100%;
+		height: 100%;
+	}--
+
+	.contenedor-uno{
+		width: 75%;
+	}
+
+	.seccion-uno{
+		display: flex;
+		align-items: flex-start;
+		justify-content: space-around;
+	}
+
+	.marcas-productos{
+		width: 15%;
+		height: 15vh;
+	}
+
+	.card-producto{
+		width: 21%;
+		font-size: .8em;
+	}
+
+	.cont-card-producto{
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		flex-flow: row wrap;
+	}
+
+	.productos{
+		width: 100%;
+	}
+
+	.ordenar button{
+		width: 100%;
+	}
+
+
+}
+
+*/
+
+/*
+
+.contenedor-marcas{
+	padding: 1em;
+	background-color: #F5F5F5;
+}
+
+.marcas-productos{
+	height: 10vh;
+	width: 30%;
+	border: solid 1px #999;
+}
+
+.marcas-productos img{
+	height: 100%;
+	width: 100%;
+}
+
+
+
+.cont-card-producto{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-flow: row wrap;
+}
+.contenedor-subcategoria{
+	display: none;
+	width: 20%;
+}
+.sub-categoria{
+	background-color: #fff;
+	width: 100%;
+	padding: 1.2em;
+	border-radius: 7px;
+}
+
+.container-sub-categoria h2{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.container-sub-categoria h2 svg{
+	margin-left: 5px;
+}
+
+.lista-subcategorias{
+	list-style: none;
+	padding: 10px;
+}
+
+.item-subcategoria{
+	padding: 5px;
+}
+
+.item-subcategoria a{
+	text-decoration: none;
+	font-size: .7em;
+	color: rgba(0,0,0,.87);
+}
+
+
+
+
+*/

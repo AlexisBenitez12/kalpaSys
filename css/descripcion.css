@@ -1,0 +1,576 @@
+.subcategoria{
+	height: 8vh;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 20px;
+	font-size: .8em;
+	text-transform: uppercase;
+}
+
+
+.imagen-multimedia{
+	height: 50vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.imagen-multimedia img{
+	height: 90%;
+	width: 90%;
+}
+
+.preview{
+	width: 100%;
+	height: 10vh;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 5px 0;
+
+}
+
+.img-preview{
+	width: 15%;
+	height: 90%;
+	margin: 0 5px;
+	border: solid 1px black;
+}
+
+.img-preview img{
+	width: 100%;
+	height: 100%;
+}
+
+/*.iframe-multimedia{
+	height: 40vh;
+	width: 100%;
+}
+
+.iframe-multimedia iframe{
+	height: 100%;
+	width: 100%;
+}*/
+
+.ilustrativo{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 5vh;
+	margin: 10px 0;
+}
+
+.dato-nombre{
+	height: 30%;
+	width: 100%;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+	font-size: 1em;
+	padding: 10px;
+}
+
+.dato-code{
+	padding: 10px;
+	font-size: .85em;
+}
+
+.dato-stock{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 10vh;
+	width: 80%;
+	margin:0 10%;
+}
+
+.img-marca{
+	height: 100%;
+	width: 30%;
+	padding: 10px;
+}
+.img-marca img{
+	height: 100%;
+	width: 100%;
+}
+
+.stock-producto{
+	width: 40%;
+	height: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 10px;
+}
+
+.stock-producto h3{
+	padding: 10px;
+	color: white;
+	border-radius: 10px;
+	background-color: green;
+}
+
+.dato-precio{
+	height: 10vh;
+	width: 80%;
+	margin: 0 10%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column;
+}
+.dato-precio h4{ 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.dato-precio h3{ 
+	font-size: 2em;
+}
+
+.dato-cuota{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+	padding: 10px;
+}
+
+.cuota{
+	height: 7vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 5px;
+	margin: 5px 0;
+	border: solid 1px gray;
+	border-radius: 10px;
+}
+
+
+.cuota h4{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 600;
+	width: 86%;
+}
+
+.cuota-12{
+	width: 14%;
+}
+
+.letra-chica{
+	font-size: .8em;
+	margin: 0 5px;
+}
+
+.precio-tarjeta{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+	padding: 10px;
+}
+
+.precio-tarjeta h4{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.5em;
+	margin: 0 5px;
+}
+
+.precio-tarjeta h4 span{
+	margin: 0 5px;
+	font-size: .7em;
+}
+
+.calcular-cuotas{
+	width: 100%;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	color: blue;
+	font-size: 1.1em;
+}
+.cantidad {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.cantidad,
+.cantidad button {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.cantidad button {
+    background-color: #e5e5e5;
+    border: none;
+    font-size: 10px;
+    padding: 7.5px 15px;
+    fill: #000;
+}
+.cantidad button,
+.cantidad input {
+    color: #7e7e83;
+    height: 36px;
+    margin: 0;
+}
+.cantidad input {
+    -moz-appearance: textfield;
+    border: 1px solid hsla(240, 2%, 50%, 0.15);
+    border-radius: 0;
+    cursor: pointer;
+    padding: 7.5px 0;
+    text-align: center;
+    width: 100%;
+}
+.cantidad button {
+    border-radius: 0 5px 5px 0;
+}
+.cantidad button:first-child {
+    border-radius: 5px 0 0 5px;
+}
+.btn.btn-compra{
+	display: flex;
+	justify-content:center;
+	align-items: center;
+    background-color: #0084e0;
+    border: 1px solid transparent;
+    border-bottom: 2px solid #016ab3;
+    color: #fff;
+    padding: 0.8em;
+    border-radius: 8px;
+    width: 80%;
+    font-size: 1em;
+    fill: #fff;
+    margin: 10px 0;
+    margin: 0 10%;
+}
+
+
+.btn.btn-compra svg{
+	margin-right: 5px;
+}
+
+.envios{
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	justify-content: center;
+	flex-flow: row wrap;
+}
+
+.envios svg{
+	margin-right: 5px;
+}
+
+.calcular-envio{
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	color: blue;
+	font-size: 1.1em;
+}
+
+.compartir{
+	height: 8vh;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 0 10px;
+}
+
+.icon-compartir{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 70%;
+	width: 15%;
+}
+
+.icon-compartir svg{
+	width: 100%;
+	height: 100%;
+}
+
+.dato-descripcion{
+	padding: 10px;
+}
+
+.descripcion{
+	height: 5vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 1px solid grey;
+	color: blue;
+}
+
+.descripcion-parrafo{
+	padding: 10px;
+}
+
+.dato-ficha{
+	padding: 10px;
+}
+
+.fichas-parrafo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+	padding: 10px 0;
+}
+
+.titulo-attr{
+	font-size: 1.125rem;
+}
+
+.item-ficha{
+	margin: 5px 0;
+}
+
+@media screen and (max-width: 350px){
+
+	*{
+		font-size: .95em;
+	}
+
+	.descripcion{
+		font-size: 1.4em;
+	}
+
+	.item-ficha{
+		font-size: 1em;
+	}
+}
+
+@media screen and (min-width: 700px){
+
+	.cont-cantidad{
+		border-radius: 10px;
+		margin:10px 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		background-color: #fff;
+	}
+
+	.cantidad{
+		width: 70%;
+	}
+
+	.btn.btn-compra{
+		display: flex;
+		justify-content:center;
+		align-items: center;
+	    background-color: #0084e0;
+	    border: 1px solid transparent;
+	    border-bottom: 2px solid #016ab3;
+	    color: #fff;
+	    padding: 0.4em;
+	    border-radius: 8px;
+	    width: 40%;
+	    font-size: 1em;
+	    fill: #fff;
+	    margin: 10px 0;
+	    margin: 0 30%;
+	}
+
+	.icon-compartir{
+		width: 8%;
+		margin:0 2px;
+	}
+
+	.imagen-multimedia img{
+		width: 70%;
+	}
+}
+
+@media screen and (min-width: 950px){
+
+	.multimedia{
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
+		padding: 10px;
+	}
+
+	.contenedor-multimedia{
+		width: 48%;
+	}
+
+	.imagen-multimedia{
+		height: 55vh;
+	}
+
+	.preview{
+		height: 15vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.img-preview{
+		width: 20%;
+		height: 100%;
+	}
+
+	.imagen-multimedia img{
+		width: 80%;
+		height: 100%;
+	}
+
+	.datos-producto{
+		width: 48%;
+		padding: 10px;
+	}
+
+	.dato-nombre{
+		font-size: 1.5em;
+		font-weight: 900;
+	}
+
+	.codigo{
+		font-size: .8em;
+	}
+
+	.dato-stock{
+		width: 100%;
+		margin: 0;
+	}
+
+	.img-marca{
+		width: 13%;
+		height: 80%;
+	}
+
+	.stock-producto h3{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 60%;
+		font-size: .7em;
+	}
+
+	.dato-precio{
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		flex-direction: row;
+		border-radius: 10px;
+		padding: 10px;
+		width: 100%;
+		margin: 10px 0;
+		color:#0000fe;
+		fill: #0000fe;
+	}
+	.cuota{
+		height: 5vh;
+		width: 90%;
+		background-color: #fff;
+		border: none;
+		display: flex;
+		justify-content: flex-start;
+	}
+
+	.cuota h4{
+		font-size: .9rem;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+	}
+
+	.cuota-12 svg{
+		height: 100%;
+		width: 100%;
+	}
+
+	.ilustrativo{
+		font-size: .8em;
+		margin: 0;
+	}
+
+	.cont-cantidad{
+		border-radius: 10px;
+		margin:10px 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		background-color: #fff;
+	}
+
+	.cantidad{
+		width: 70%;
+	}
+
+	.btn.btn-compra{
+		display: flex;
+		justify-content:center;
+		align-items: center;
+	    background-color: #0084e0;
+	    border: 1px solid transparent;
+	    border-bottom: 2px solid #016ab3;
+	    color: #fff;
+	    padding: 0.4em;
+	    border-radius: 8px;
+	    width: 40%;
+	    font-size: 1em;
+	    fill: #fff;
+	    margin: 10px 0;
+	    margin: 0 30%;
+	}
+
+	.envios{
+		font-size: .8em;
+		display: flex;
+		justify-content: flex-start;
+	}
+
+	.envio-a{
+		display: flex;
+		justify-content: flex-start;
+	}
+
+	.icon-compartir{
+		width: 8%;
+		margin:0 2px;
+	}
+
+	.descripciones{
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
+		margin: 10px 0;
+	}
+
+	.dato-descripcion{
+		width: 45%;
+	}
+
+
+	.dato-ficha{
+		width: 45%;
+	}
+
+	.fichas-parrafo,.descripcion-parrafo{
+		font-size: .7em;
+	}
+
+
+}

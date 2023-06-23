@@ -1,0 +1,260 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.contenedor{
+	background-color: #5555;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.contenedor-login{
+	height: 60%;
+	width: 100%;
+	background-color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	border-radius: 4px;
+	padding: 10px;
+}
+
+
+.cerra{
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 5px;
+	height: 5%;
+}
+
+.cerra button{
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+}
+
+.contenedor-google{
+	display: flex;
+	flex-flow: column;
+	justify-content: space-around;
+	align-items: center;
+	height: 24%;
+	border-bottom: 1px solid grey;
+	width: 100%;
+}
+
+.contenedor-google h2{
+	font-size: 1.7em;
+}
+
+#btnIngresarConGoogle {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #dd4b39;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 1em;
+	width: 80%;
+}
+
+.google{
+	margin: 0 5px;
+	background-color: #fff;
+	border-radius: 100%;
+	height: 3vh;
+	padding: 5px;
+}
+
+.contenedor-mail{
+	height: 60%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	padding: 10px;
+}
+
+.contenedor-mail h2{
+	font-size: 1.7em;
+	height: 15%;
+}
+
+.form-login{
+	height: 80%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	flex-flow: column;
+	padding: 5px;
+}
+
+.grupo-input{
+	height: 20%;
+	width: 100%;
+	margin: 10px 0;
+}
+
+.grupo-input input{
+	height: 100%;
+	width: 100%;
+	font-size: 1em;
+	padding: 10px;
+	border-radius: 5px;
+	border: solid 1px black;
+}
+
+.recuperar-cuenta{
+	text-decoration: none;
+	color: grey;
+	text-transform: uppercase;
+	font-size: .8em;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 5px;
+	height: 5%;
+	width: 100%;
+}
+
+.button-ingresar{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: blue;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 1em;
+	width: 100%;
+	margin: 20px 0;
+	height: 30%;
+}
+
+.cuenta-nueva{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 11%;
+	width: 100%;
+}
+
+.cuenta-nueva b{
+	font-size: 1.2em;
+}
+
+.button-cuenta{
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+	background-color: #dd4b39;
+	border-radius: 4px;
+}
+
+@media screen and (max-width: 350px){
+
+	*{
+		font-size: .95em;
+	}
+}
+
+@media screen and (min-width: 700px){
+
+	*{
+		font-size: 1em;
+	}
+
+	.contenedor-login{
+		width: 90%;
+		height: 70%;
+	}
+}
+
+
+@media screen and (min-width: 1000px){
+	*{
+		font-size: 1em;
+	}
+
+	.contenedor-login{
+		width: 50%;
+		height: 60%;
+	}
+
+	.button-ingresar{
+		padding: 10px;
+		height: 20%;
+		width: 50%;
+	}
+
+	#btnIngresarConGoogle{
+		width: 50%;
+	}
+}
+
+
+
+
+
+
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cerra{
+	background-color: orange;
+}
+
+.contenedor-google{
+	background-color: pink;
+}
+
+.contenedor-mail{
+	background-color: green;
+}*/
+
+
+
+
+
